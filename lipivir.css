@@ -1,0 +1,539 @@
+body {
+    background-color:#fff8e7 ;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+
+    font-family: bryant-web, sans-serif;
+    font-style: normal;
+        font-weight: 300;
+    text-align: center;
+    color: #1e1e1e;
+
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+video {
+    width: 70%;
+}
+
+
+header {
+    display: flex;
+}
+
+.logo{
+    width: 20vw;
+    margin: 10px;
+    
+}
+
+footer{
+    color: #fff8e7; 
+    text-align: center;
+    padding: 2em;
+    background-color:#1e1e1e;
+    margin-top: 50px;
+    font-size: x-small;
+}
+
+
+
+
+button {
+    background-color: transparent;
+    padding: 15px;
+    margin: 5px;
+    border-color: #1e1e1e;
+    border-style: ridge;
+}
+
+/********************************************\
+*navigation                                   *
+\********************************************/
+
+
+
+nav {
+    margin: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li a {
+    color: #1e1e1e;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: block;
+    padding: 1em 0;
+    text-align: center;
+    
+}
+
+nav .nav-toggle {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 3;
+}
+
+ 
+nav button {
+    display: inline-block;
+    border: none;
+    margin: 3;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    background: transparent;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+
+.circle-sketch-highlight{
+    position:relative;
+    left:0.5em;
+
+
+  }
+  .circle-sketch-highlight:before{
+    content:"";
+    z-index:-1;
+    left:-0.5em;
+    top:-0.1em;
+    border-width:2px;
+    border-style:solid;
+    border-color:#8299cb;
+    position:absolute;
+    border-right-color:transparent;
+    width:100%;
+    height:1em;
+    transform:rotate(2deg);
+    opacity:0.7;
+    border-radius:50%;
+    padding:0.1em 0.25em;
+  }
+  .circle-sketch-highlight:after{
+    content:"";
+    z-index:-1;
+    left:-0.5em;
+    top:0.1em;
+    padding:0.1em 0.25em;
+    border-width:2px;
+    border-style:solid;
+    border-color:#8299cb;
+    border-left-color:transparent;
+    border-top-color:transparent;
+    position:absolute;
+    width:100%;
+    height:1em;
+    transform:rotate(-1deg);
+    opacity:0.7;
+    border-radius:50%;
+  }
+
+/********************************************\
+*home page                                   *
+\********************************************/
+
+h1 {
+    margin-top: 40px;
+}
+
+p {
+    margin: 20px ;
+    padding: 20px;
+}
+
+.photo1 {
+    margin: 70px;
+}
+
+.shop-block{
+    margin: 70 px;
+    margin-top: 70px;
+    padding: 20px;
+
+}
+
+.photo2 {
+    margin: 70px;
+}
+
+.how-to-block{
+    margin-left: 70 px;
+    padding: 0px;
+}
+
+
+.home-rewards-container{
+    padding: 30px;
+    background-color: #d6ecdf ;
+}
+
+.home-review-container img{
+    margin: 10px;
+    padding: 10px;
+    max-width: 70%;
+}
+
+
+/********************************************\
+*about page                                 *
+\********************************************/
+
+
+.about-intro{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+
+.about-the-product{
+    margin-top: 1em ;
+    padding: 2em;
+}
+
+.how-it-works{
+    margin-top: 20px;
+    padding: 2em;
+}
+
+.about-the-company{
+    padding: 2em;
+}
+
+.animation img{
+
+    padding: 50px;
+}
+
+
+/********************************************\
+*shop page                                   *
+\********************************************/
+
+
+.original-cream {
+    background-color: #b4aea2;
+}
+
+.original-cream img {
+    width: 40%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.og-words {
+    margin-top: 10vw;
+    margin-right: 5vw;
+    padding: 10px;
+}
+
+.flavoured-creams {
+    padding: 5em;
+   
+
+}
+.flavoured-creams img {
+    width: 50%; 
+     margin-left: 10vw;
+}
+
+.flavoured-creams h3 {
+    margin-left: 10vw;
+}
+
+/********************************************\
+*faqs page                                *
+\********************************************/
+
+.contact-container {
+    margin: 2em;
+    padding:20px ;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.faq-container {
+    margin-top: 5em;
+    margin: 4em;
+    text-align:left;
+    justify-content: space-between;
+}
+
+.faq-container div {
+    margin-top: 2em;
+}
+
+details{
+  background-color: #fff8e7;
+  color: #1e1e1e;
+  font-size: 1.2rem;
+  padding: 20px;
+}
+
+summary {
+  padding: .5em 1rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;  
+  transition: height 2s ease;
+  border-bottom: 2px solid #1e1e1e;
+  padding-bottom: 2rem;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after{
+  content: "\002B";
+}
+
+details[open] summary {
+    border-bottom: 2px solid #1e1e1e;
+    margin-bottom: 0.5rem;
+}
+
+details[open] summary:after{
+  content: "\00D7";
+
+}
+
+details[open] div{
+    padding: 0.5em 1em;
+    background-color: #fff8e7;
+    color: #1e1e1e;
+}
+
+
+/********************************************\
+*reviews page                                *
+\********************************************/
+
+.reviews-header {
+    padding: 25px;
+}
+.reviews-container img {
+    padding: 1em;
+    max-width: 75%;
+}
+
+.customer-photos img{
+    max-width: 70%;
+    align-content: space-between;
+}
+
+/********************************************\
+*rewards page                                *
+\********************************************/
+
+.login-container{
+    margin-top: 4em;
+    padding: 5em;
+}
+
+.login-info{
+    margin: 3em;
+    background-color: #cad4e8; 
+    width: 70%;
+    margin-left: 13vw;
+}
+
+.login-info h4 {
+    background-color: #8299cb;
+    padding: 2em;
+}
+
+form {
+    padding: 2em;
+}
+
+
+.referral-container{
+    margin-top: 4em;
+    padding: 5em;
+}
+
+.referral-info{
+    margin: 3em;
+    background-color: #f2b5b3; 
+    width: 70%;
+    margin-left: 15vw;
+}
+
+
+.reward-container {
+    margin-top: 8em ;
+    margin-bottom: 4em;
+}
+.reward-container img {
+    padding: 2em;
+    width: 40%; 
+}
+
+
+input [type=Submit] {
+    background-color: transparent;
+    padding: 15px;
+    margin: 5px;
+    border-color: #1e1e1e;
+    border-style: ridge;
+}
+
+/********************************************\
+*media queries                               *
+\********************************************/
+
+@media screen and (min-width: 550px) {
+
+    /* nav */
+  
+  
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+  
+    nav ul li {
+        margin: 0 1.5em;
+    }
+  
+    nav .nav-toggle {
+        display: none;
+    }
+    
+  /* home page*/
+  
+  .features1{
+    display: flex;
+  }
+  .features2{
+    display: flex;
+    flex-direction: row-reverse;
+  
+  }
+  .photo1{
+    width: 50%;
+    height: fit-content;
+  }
+  
+    .shop-block {
+    width: 50%;
+    height: fit-content;
+    margin-top: 15vw;
+  }
+  .photo2 {
+    width: 50%;
+    height: fit-content;
+  }
+  
+  .how-to-block {
+    width: 50%;
+    height: fit-content;
+    margin-top: 15vw;
+  }
+
+  .home-review-container {
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .home-review-container img {
+    max-width: 30%;
+    margin: 15px;
+  }
+
+/* about page*/
+
+.about-intro{
+    display: flex;
+}
+
+.about-intro img{
+    width: 50%;
+    padding: 50px;
+}
+
+.about-intro h1{
+    padding: 40px;
+}
+
+
+/* shop page*/
+
+.original-cream{
+    display: flex;
+    margin: 20px;
+}
+
+
+  .flavours1{
+    display: flex;
+    margin: 20px;
+    text-align: left;
+}
+.flavours2{
+    display: flex;
+    margin: 20px;
+    text-align: left;
+}
+.flavours3{
+    display: flex;
+    margin: 20px;
+    text-align: left;
+}
+
+/* reviews page*/
+
+.reviews-container{
+    display: flex;
+    margin: 5px;
+}
+
+.column1 {
+    width: 30%;
+    padding: 1em;
+
+}
+.column2 {
+    width: 30%;
+    padding: 1em;
+
+}
+.column3 {
+    width: 30%;
+    padding: 1em;
+}
+.reviews-container img {
+    padding: 1em;
+}
+.customer-photos {
+    max-width: 40vw;
+}
+
+.customer-photos img {
+
+    padding-left: 35vw;
+}
+
+
+}

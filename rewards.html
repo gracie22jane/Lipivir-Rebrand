@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lipivir</title>
+    <link rel="stylesheet" href="lipivir.css">
+
+</head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/Logo.svg" alt="lipivir logo" > 
+            </div>
+            <nav>
+                <ul id="menu" data-menu>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="faq.html">FAQ's</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="rewards.html"><span class="circle-sketch-highlight">Rewards</span></a></li>
+                </ul>
+                <button class="nav-toggle" aria-expanded="false" aria-controls="menu" data-menu-button>
+ 
+                    <svg width="25" height="20" class="closed" data-menu-button-closed>
+                        <path d="M0,2 25,2" stroke="#000" stroke-width="4" />
+                        <path d="M0,10 25,10" stroke="#000" stroke-width="4" />
+                        <path d="M0,18 25,18" stroke="#000" stroke-width="4" />
+                    </svg>
+                    <svg width="20" height="20" class="open" data-menu-button-open>
+                        <path d="M2,2 18,18" stroke="#000" stroke-width="4" />
+                        <path d="M2,18 18,2" stroke="#000" stroke-width="4" />
+                    </svg>
+                </button>
+            </nav>
+        </header>
+        <main>
+            <h1> On Everyone's Lips Reward Scheme </h1>
+            <div class="login-container">
+                <h2> Login to see referred friends, available rewards and claim your prizes now! </h2>
+                <div class="login-info">
+                    <h4> Account Login </h4>
+                    <form>
+                        <label for="fname">Email:</label><br>
+                        <input type="text" id="fname" ><br>
+                        <label for="lname">Password:</label><br>
+                        <input type="text" id="lname" ><br><br>
+                        <input type="Submit" value="Create Account">
+                        <input type="Submit" value="Done">
+                      </form>
+                </div>
+            </div>
+            <div class="Referral-container ">
+                <h2> Tell friends about Lipivir and earn great prizes! </h2>
+                <div class="referral-info">
+                    <form>
+                        <label for="fname"> Your Email:</label><br>
+                        <input type="text" id="fname" ><br>
+                        <label for="lname">Friends Email:</label><br>
+                        <input type="text" id="lname" ><br><br>
+                        <input type="Submit" value=" Refer Friend">
+                      </form>
+                </div>
+            </div>
+            <div class="reward-container">
+                <h2>Check out some of the rewards we have available </h2>
+                <img src="images/Lipivir-Box.png" alt="Promotional box">
+                <img src="images/box-open.png" alt="Promotional box inside">
+            </div>
+
+            <div class="instructions-video"> 
+                <video autoplay muted >
+                    <source src="images/'On Everybody's Lips' Promotional Campaign Instructional Advert.mp4" type="video/mp4">
+                  </video>
+            </div>
+        </main>
+        <footer>
+            | Lipivir | Email: customers.en@lipivir.com | Tel: 020 3642 1840 | <br> 
+            | About | Terms | Privacy Policy | Website Terms & Conditions | Copyright Statement | Cookie Policy | 
+        </footer>
+        <script src="nav.js"></script>
+    </body>
+</html>
